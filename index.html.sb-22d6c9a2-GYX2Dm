@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Tianpei Gu's Homepage</title>
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<meta name="viewport" content="width=device-width">
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Tianpei Gu</h1>
+			<p></p>
+			<p>Undergraduate Student @ University of Maryland</p>
+			<p>Research Intern @ Tsinghua University</p>
+			<img src="images/tianpei.JPG" alt="Photo @ UMD.">
+			<p>
+				<b>Email:</b> <a href="mailto:brucegu@umd.edu">brucegu@umd.edu</a><br>
+				<b>Github:</b> <a href="https://github.com/Gutianpei" , target="_blank">https://github.com/Gutianpei</a><br>
+				<b>LinkedIn:</b> <a href="https://www.linkedin.com/in/tianpei-gu-973904129/ ,
+					target="_blank">https://www.linkedin.com/in/tianpei-gu-973904129/</a><br>
+			</p>
+			<img src="images/umd.JPG" alt="umd." height=70 weight = 70>
+			<img src="images/thu.png" alt="thu." height=67 weight = 67>
+			
+
+		</header>
+		<section>
+			<h1>About Me</h1>
+			<p>I am a Senior student double majored in Computer Science and Mathematics at the University of Maryland. I'm currently in Beijing due to the pandemic and serve as Research Assistant at <a href="http://ivg.au.tsinghua.edu.cn/">Intelligent Vision Group (IVG)</a>, Department of Automation, <b>Tsinghua University</b>, under the guidance of <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Prof. Jiwen Lu</a>. Prior to that, I did research at <a href="http://prg.cs.umd.edu/">Perception and Robotics Group (PRG)</a> in the <a href="https://www.cs.umd.edu/">Department of Computer Science</a>, <b>University of Maryland</b>, under the guidance of <a href="http://legacydirs.umiacs.umd.edu/~yiannis/">Prof. Yiannis Aloimonos</a>.
+			My research interest is in <b>Computer Vision</b>, especially <b>Person Re-identification</b> and <b>Causal Inference</b>. You can find my <a href="Gutianpei.github.io/images/resume_eng.pdf" target="_blank">resume</a> here.
+			</p>
+			<h1>Education</h1>
+
+			<h3>University of Maryland at College Park, MD, USA</h3>
+			<ul>
+				<li>Computer Science & Mathematics</li>
+				<li>Expected Jan 2021</li>
+				<li>Research Interest: Person Re-identification, Causal Inference</li>
+			</ul>
+
+			<h1>Research Experience</h1>
+					
+			<h3>3-D Reconstruction</h3>
+			<ul>
+				<li>Researching on state-of-art 3D Reconstruction method, especially reconstruct with <a href="https://smpl.is.tue.mpg.de/">SMPL model</a>.</li>
+				<li>Customized existing 3D construction methods to fit our dataset; maintained the human 3D reconstruction methods survey for the lab. </li>
+			</ul>
+			
+			<h3>Person Re-identification</h3>
+			<ul>
+				<li>Conducted literature review (100+ papers) and experimented with person re-id frameworks from groundbreaking papers.</li>
+				<li>Proposed a novel CNN-based network to re-identify person based on their movement style. </li>
+				<li>Built an online and in-memory system to re-identify people with 85% accuracy under clean image setting.</li>
+				<li>The first system to process raw input of any tracking algorithm and integrate person re-id and tracking without extra training. </li>
+				<li>A dataset paper is planned to submit in 11/2020</li>
+			</ul>
+			
+			<h3>Text-based Person Search</h3>
+			<ul>
+				<li>Proposed a novel CNN-based network for text-based person search, using Resnet50 and Bi-LSTM as backbone network</li>
+				<li>Improved performance by adding Batch Normalization and Instance Normalization layers into our network and employing the triplet loss as the loss function</li>
+				<li>Our framework outperforms the current state-of-the-artmethods on rank-5 and rank-10 by 1% and 2.3%, respectively, and achievea comparable result on rank-1</li>
+				<li>Code will be published at the end of the summer, and currently works on adding extra module to boost performance</li>
+			</ul>
+			
+			<h1>Field Experience</h1>
+			
+			<h3>Beijing Photon Dance Tech Inc.</h3>
+			Co-Founder, Algorithm Engineer
+			<ul>
+				<li>Ongoing, we tried to extract 3-D human pose from only depth image</li>
+				<li>Current Progress: Point cloud merging done, developing deep network</li>
+			</ul>
+
+			<h1>Professional Skills</h1>
+			<p><b>Programming Language (ranked by proficiency):</b> Python, Java, C, C++, Matlab, Git, Shell</p>
+			<p><b>Deep Learning Framework:</b> Keras, PyTorch, TensorFlow </p>
+
+
+		</section>
+		<footer>
+			<p>
+				<small>
+					Hosted on GitHub Pages &mdash;
+					Theme by <a href="https://github.com/orderedlist" , target="_blank">orderedlist</a>.
+					<!-- <span id="busuanzi_container_site_pv" style='display:none'>
+						Viewed <span id="busuanzi_value_site_pv"></span> times.
+					</span> -->
+				</small>
+			</p>
+		</footer>
+	</div>
+	<script src="javascripts/scale.fix.js"></script>
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+</body>
+
+</html>

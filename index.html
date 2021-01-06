@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/png" href="images/icon.png">
 	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -20,7 +21,7 @@
 		<header>
 			<h1>Tianpei Gu</h1>
 			<p></p>
-			<p>Undergraduate Student @ University of Maryland</p>
+			<p>Research Intern @ Tsinghua University</p>
 			<img src="images/tianpei.JPG" alt="Photo @ UMD.">
 			<p>
 				<b>Email:</b> <a href="mailto:brucegu@umd.edu">brucegu@umd.edu</a><br>
@@ -28,21 +29,23 @@
 				<b>LinkedIn:</b> <a href="https://www.linkedin.com/in/tianpei-gu-973904129/ ,
 					target="_blank">https://www.linkedin.com/in/tianpei-gu-973904129/</a><br>
 			</p>
+			<img src="images/umd.JPG" alt="umd." height=60 weight = 60>
+			<img src="images/thu.png" alt="thu." height=57 weight = 57>
 			
 
 		</header>
 		<section>
 			<h1>About Me</h1>
-			<p>I am a Junior student double majored in Computer Science and Mathematics at the University of Maryland. I'm a Teaching Assistant for CMSC131 and I've been doing research at <a href="http://prg.cs.umd.edu/">Perception and Robotics Group (PRG)</a> in the <a href="https://www.cs.umd.edu/">Department of Computer Science</a> under the guidance of <a href="http://legacydirs.umiacs.umd.edu/~yiannis/">Prof. Yiannis Aloimonos</a> for one year.
-			My research interest is in <b>Computer Vision</b>, especially <b>Person Re-identification</b> and <b>Multi-Object Tracking</b>. I'm currently in Beijing to finish my last semester at UMD and working with three Master students at Tsinghua University on a project about 3D human body joints estimation. You can find my resume here <a href="Gutianpei.github.io/images/resume_eng.pdf" target="_blank">PDF.</a>.
+			<p> I'm a Resaerch Assistant at <a href="http://ivg.au.tsinghua.edu.cn/">Intelligent Vision Group (IVG)</a>, Department of Automation, <b>Tsinghua University</b>, under the guidance of <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Prof. Jiwen Lu</a>. In December 2020, I received B.S. degree in Computer Science and Mathematics at the University of Maryland. Before joined IVG, I did research at <a href="http://prg.cs.umd.edu/">Perception and Robotics Group (PRG)</a> in the <a href="https://www.cs.umd.edu/">Department of Computer Science</a>, <b>University of Maryland</b>, under the guidance of <a href="http://legacydirs.umiacs.umd.edu/~yiannis/">Prof. Yiannis Aloimonos</a>.
+				My research interest is in <b>Computer Vision</b>, especially <b>Person Re-identification</b> and <b>Causal Inference</b>. You can find my <a href="docs/resume_eng.pdf" target="_blank">resume</a> here.
 			</p>
 			<h1>Education</h1>
 
 			<h3>University of Maryland at College Park, MD, USA</h3>
 			<ul>
-				<li>Computer Science & Mathematics</li>
-				<li>Expected Jan 2021</li>
-				<li>Research Interest: Person Re-identification, 3-D Reconstruction</li>
+				<li>Bachelor of Science in Computer Science</li>
+				<li>Bachelor of Science in Mathematics</li>
+				<li>Major GPA: 3.8</li>
 			</ul>
 
 			<h1>Research Experience</h1>
@@ -50,33 +53,41 @@
 			<h3>3-D Reconstruction</h3>
 			<ul>
 				<li>Researching on state-of-art 3D Reconstruction method, especially reconstruct with <a href="https://smpl.is.tue.mpg.de/">SMPL model</a>.</li>
-				<li>Customized existing 3D construction methods to fit our dataset and applied data augmentation and regulation methods to improve performance; maintained the human 3D reconstruction methods survey for the lab. </li>
+				<li>Customized existing 3D construction methods to fit our dataset; maintained the human 3D reconstruction methods survey for the lab. </li>
 			</ul>
 			
 			<h3>Person Re-identification</h3>
 			<ul>
-				<li>Conducted literature review (100+ papers) and experimented with person re-id frameworks from groundbreaking papers.</li>
 				<li>Proposed a novel CNN-based network to re-identify person based on their movement style. </li>
 				<li>Built an online and in-memory system to re-identify people with 85% accuracy under clean image setting.</li>
-				<li>The first system to process raw input of any tracking algorithm and integrate person re-id and tracking without extra training. </li>
-				<li>A dataset paper is planned to submit in 11/2020</li>
-			
+				<li>Propose to draw the counterfactual causality from the traditional trained "biased" network to infer the effect from bad bias, then remove them. Proposed a novel deep neural network for Person Re-ID task to make causal intervention in training and counterfactual reasoning in inference to remove the bad while keep the good features. </li>
+				<li>Proposed an attention pyramid structure for Person Re-ID task to focus more on local attention of the feature map while keep the global attention of a human image. Our method outperforms the state-of-the-art methods by a large margin with -40% computational cost. The work has been submitted to TIP.</li>
 			</ul>
 			
 			<h3>Text-based Person Search</h3>
 			<ul>
 				<li>Proposed a novel CNN-based network for text-based person search, using Resnet50 and Bi-LSTM as backbone network</li>
-				<li>Improved performance by adding Batch Normalization and Instance Normalization layers into our network and employing the triplet loss as the loss function</li>
-				<li>Our framework outperforms the current state-of-the-artmethods on rank-5 and rank-10 by 1% and 2.3%, respectively, and achievea comparable result on rank-1</li>
-				<li>Code will be published at the end of the summer, and currently works on adding extra module to boost performance</li>
+				<li>Improved performance by adding Batch Normalization and Instance Normalization layers into our network and employing the triplet loss as the loss function. Our method outperforms the current state-of-the-art methods.</li>
 			</ul>
+			
+			<h1>Publications</h1>
+			<td width="75%" valign="center">
+				<strong>[1] Attention Pyramid for Person Re-Identification</strong>
+				<br>
+				Guangyi Chen*, <strong>Tianpei Gu*</strong>, Jiwen Lu, Jie Zhou
+				<br>
+				<em>Proceeding to IEEE Transcations on Image Processing(<strong>TIP</strong>), 2020</em>
+				<p>We designed a novel attention pyarmid structure to help the network focus more on local feature while keep the global representation.</p>
+			</td>
 			
 			<h1>Field Experience</h1>
 			
-			<h3>Skywork Team (天空工厂), Tsinghua University</h3>
+			<h3>Beijing Photon Dance Tech Inc.</h3>
+			Co-Founder, Algorithm Engineer
 			<ul>
-				<li>Ongoing, we tried to extract 3-D human pose from only depth image</li>
-				<li>Current Progress: Point cloud merging done, developing deep network</li>
+				<li>Founded in Skywork Team, Tsinghua University.</li>
+				<li>Proposed an end-to-end solution from extracted 3D point cloud with multiple views to automatic motion difference evaluating. Participated in multi-view point cloud calibration and developing of DL-based merging algorithm.</li>
+				<li>Our team just receive the Angle Investment.</li>
 			</ul>
 
 			<h1>Professional Skills</h1>
