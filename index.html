@@ -23,6 +23,7 @@
 			<h2>Tianpei Gu 「顾天培」</h2>
 			<p></p>
 			<p>Research Intern @ Tsinghua University</p>
+			<p>Research Intern @ SenseTime Research</p>
 			<img src="images/tianpei.JPG" alt="Photo @ UMD.">
 			<p>
 				<b>Email:</b> <a href="mailto:brucegu@umd.edu">brucegu@umd.edu</a><br>
@@ -39,14 +40,14 @@
 		<section>
 			<h1>About Me</h1>
 			<p> I'm a Research Assistant at <a href="http://ivg.au.tsinghua.edu.cn/">Intelligent Vision Group (IVG)</a>,  <b>Tsinghua University</b>, under the guidance of <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Prof. Jiwen Lu</a>. I also worked at <b>SenseTime Research</b> as an intern now. In December 2020, I received B.S. degree in Computer Science and Mathematics at the University of Maryland. Before joined IVG, I did research at <a href="http://prg.cs.umd.edu/">Perception and Robotics Group (PRG)</a> in the <a href="https://www.cs.umd.edu/">Department of Computer Science</a>, <b>University of Maryland</b>, under the guidance of <a href="http://legacydirs.umiacs.umd.edu/~yiannis/">Prof. Yiannis Aloimonos</a>.
-				My research interest is in <b>Computer Vision</b>, especially <b>Person Re-identification</b> and <b>Causal Inference</b>. I spent time at SenseTime Research. 
-<!-- 				You can find my <a href="docs/GTP CV.pdf" target="_blank">resume</a> here. -->
+				My research interest is in <b>Computer Vision</b>, especially <b>Generative Models</b> and other interesting problems. I'll move to LA in January 2022 for Master degree. 
+				<!-- 				You can find my <a href="docs/GTP CV.pdf" target="_blank">resume</a> here. -->
 			</p>
 			<h1>Education</h1>
 			
 			<h3>University of California, Los Angeles, CA, USA</h3>
 			<ul>
-				<li>Incoming Master student in Engeering</li>
+				<li>Master student</li>
 			</ul>
 
 			<h3>University of Maryland at College Park, MD, USA</h3>
@@ -58,12 +59,33 @@
 
 			<h1>Publications</h1>
 			<td width="75%" valign="center">
-				<strong>[1] Person Re-Identification via Attention Pyramid</strong>
-				<br>
-				Guangyi Chen, <strong>Tianpei Gu</strong>, Jiwen Lu, Jin-an Bao, Jie Zhou
-				<br>
-				<em>Submitted to IEEE Transcations on Image Processing(<strong>TIP</strong>), 2020</em>
-				<p>We designed a novel attention pyarmid structure to help the network focus more on local feature while keep the global representation.</p>
+<!-- 				<strong>[1] Person Re-Identification via Attention Pyramid</strong> -->
+<!-- 				<br> -->
+<!-- 				Guangyi Chen, <strong>Tianpei Gu</strong>, Jiwen Lu, Jin-an Bao, Jie Zhou -->
+<!-- 				<br> -->
+<!-- 				<em>Submitted to IEEE Transcations on Image Processing(<strong>TIP</strong>), 2020</em> -->
+<!-- 				<p>We designed a novel attention pyarmid structure to help the network focus more on local feature while keep the global representation.</p> -->
+					<tr>
+						
+						<td width="75%" valign="center">
+							<papertitle>[1] Person Re-identification via Attention Pyramid</papertitle>
+							<br>
+							Guangyi Chen, <strong>Tianpei Gu</strong>, Jiwen Lu, Jin-An Bao, and Jie Zhou
+							<br>
+							<em>IEEE Transactions on Image Processing (<strong>TIP</strong>)</em>, 2021
+							<br>
+<!-- 							<td style="padding:20px;width:30%;max-width:30%" align="center"> -->
+<!-- 								<img style="width:100%;max-width:100%" src="images/pub/APNET.pdf" alt="dise"> -->
+<!-- 							</td> -->
+							<a href="https://chengy12.github.io/files/TIP-24326-2021R2.pdf">[PDF]</a> <a href="https://chengy12.github.io/files/TIP-24326-2021supp.pdf">[Supp]</a> <a href="https://github.com/gutianpei/APNet">[Code]</a> 
+							<br>
+							<p></p>
+							<p>We propose attention pyramid networks by the "split-attend-merge-stack" principle to jointly learn the attentions under different scales and obtain superior performance on many person re-identification datasets.
+							</p>
+						</td>
+					</tr>
+			
+			
 			</td>
 <!-- 			<td width="75%" valign="center"> -->
 <!-- 				<strong>[2] Learnable Re-Ranking for Image Retrieval</strong> -->
@@ -79,19 +101,20 @@
 			<h2>Current Project</h2>	
 			<h3>Diffusion Model for Generative Task</h3>
 			<ul>
-				<li>Exploring the current Diffusion Probabilistic Models and its future application or limitation</li>
+				<li>Exploring the Diffusion Probabilistic Models.</li>
+
 			</ul>
 			
-			<h3>Image Editting and Translating</h3>
+			<h3>Image Editting and Latent Space</h3>
 			<ul>
-				<li>Exploring the latent space of GAN and proposing a transformer-based method to find a more fine-grained solution for image manupulating.</li>
-				<li>Working with SenseTime Research</li>
+				<li>Exploring the latent space of GAN. Now researching on CLIP-based editing methods.</li>
+
 			</ul>
 			
 			<h3>Music to Dance</h3>
 			<ul>
 				<li>Generating 3D dance pose from input music.</li>
-				<li>Working with SenseTime Research</li>
+
 			</ul>
 			
 			
@@ -130,9 +153,9 @@
 			<h3>SenseTime Research</h3>
 			Computer Vision Research Intern
 			<ul>
-				<li>Build an end-to-end image generation pipeline using StyleGANv2 to produce massive high-quality paired image in given style.</li>
-				<li>Proposed to provide a fine-grained solution for face image editting using Transformer</li>
-				<li>Proposed a multi-style-transfer network using StyleGAN and current GAN inversion networks</li>
+				<li>Build an end-to-end image generation pipeline with StyleGAN to produce massive high-quality stylized image with model blending.</li>
+				<li>Main contributor of the product which transferring human face image into multiple style (now 10+).</li>
+				<li>Develop a pipeline of “Inversion-Editing-Stylization” for human face, which the editing part can receive a certain attribute selection or a text prompt.</li>
 				<li>Assisted to implement the project of music to dance generation</li>
 			</ul>
 
@@ -151,7 +174,8 @@
 			<p><b>Programming Language (ranked by proficiency):</b> Python, Java, C, C++, Matlab, Git, Shell</p>
 			<p><b>Deep Learning Framework:</b> Keras, PyTorch, TensorFlow </p>
 
-
+			<h1>Service</h1>
+				<li>Reviewer for CVPR2022</li>
 		</section>
 		<footer>
 			<p>
