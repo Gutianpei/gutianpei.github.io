@@ -1,15 +1,18 @@
-"Guangyi":
-  - firstname: ["Chen"]
-    url: https://chengy12.github.io/
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Chunze":
-  - firstname: ["Lin"]
-    url: https://linchunze.github.io/
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Jiwen":
-  - firstname: ["Lu"]
-    url: http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Li":
-  - firstname: ["Siyao"]
-    url: https://lisiyao21.github.io/
+"Bach": 
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
