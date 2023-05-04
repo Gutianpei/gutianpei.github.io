@@ -12,7 +12,7 @@ layout: default
             <img style="width: 170px;border-radius: 170px" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
             {% endif %}
         </div>
-    
+
         <div class="col-sm-9">
             <h1 class="post-title">
             {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
@@ -23,7 +23,7 @@ layout: default
                 {% include social.html %}
                 </div>
             </div>
-   
+
         </div>
     </div>
 
@@ -36,9 +36,15 @@ layout: default
       {% include news.html %}
     {% endif %}
 
+    {% if page.others %}
+      {% include others.html %}
+    {% endif %}
+
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
+
+
 
     {% if page.social %}
     <div class="social">
