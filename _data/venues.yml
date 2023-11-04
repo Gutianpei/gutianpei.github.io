@@ -2,10 +2,18 @@
   url: https://cvpr.thecvf.com/
   color: "#00369f"
 
+"ICCV":
+  url: https://iccv2023.thecvf.com/
+  color: "#00369f"
+
 "CVPR Oral":
   url: https://cvpr.thecvf.com/
   color: "#00369f"
 
 "T-IP":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
+  color: "#00369f"
+
+"TPAMI":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
   color: "#00369f"
