@@ -3,7 +3,7 @@ layout: aboutnew
 title: About
 permalink: /
 description: >
-    <p>Research Engineer @ Innopeak Technology<br>Palo Alto, California<br></p>
+    <p>Research Engineer @ Lexica<br>San Francisco, California<br></p>
 
 profile:
   align: right
