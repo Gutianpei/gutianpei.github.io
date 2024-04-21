@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined Lexica as a Research Engineer.
+I join **Lexica** as a Research Engineer.
