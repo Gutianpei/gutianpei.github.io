@@ -483,7 +483,7 @@ svg {
 }
 
 .blog.main.gray {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa91;
 }
 
 .blog.main.extra-large {
@@ -494,6 +494,20 @@ svg {
 .blog.main.large {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Research intro text */
+.research-intro {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.research-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
+  text-align: left;
 }
 
 /* Project cards */
