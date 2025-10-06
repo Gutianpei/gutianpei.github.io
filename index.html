@@ -1,0 +1,625 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianpei Gu - Research Scientist</title>
+    <meta name="description" content="Tianpei Gu - Research Scientist at ByteDance working on human-centric video generation and generative models">
+    <meta name="author" content="Tianpei Gu">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charter:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=79">
+</head>
+
+<body>
+    <!-- Title Page -->
+    <div class="container blog" id="first-content" style="background-color: #E0E4E6;">
+        <div class="blog-title">
+            <div class="blog-intro">
+                <div>
+                    <h1 class="title">Tianpei Gu</h1>
+                    <p class="author">Research Scientist @ ByteDance</p>
+                    <p class="author location" style="padding-top: 0px;">
+                        San Jose, California
+                    </p>
+                    <p class="abstract">
+                        I enjoy building/shipping things and currently working on full-stack generative model research across data, training, and deployment. Previously, I worked at startups like <a href="https://www.krea.ai/" target="_blank" rel="noopener">Krea</a> and <a href="https://lexica.art/" target="_blank" rel="noopener">Lexica</a>.
+                    </p>
+                    <div><a href="#about-section" class="button icon">READ MORE<i class="fa-regular fa-arrow-right-from-line"></i></a></div>
+                </div>
+            </div>
+
+            <div class="blog-cover">
+                <img class="foreground" src="assets/img/tianpei202304.jpeg" alt="Tianpei Gu">
+                <div class="info">
+                    <div>
+                        <a href="https://www.linkedin.com/in/tianpei-gu-973904129" class="button icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/gutianpei_" class="button icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://scholar.google.com/citations?user=zWL2qoUAAAAJ" class="button icon"><i class="fas fa-graduation-cap"></i></a>
+                        <a href="assets/pdf/cv.pdf" class="button icon">CV <i class="fas fa-file-pdf"></i></a>
+                    </div>
+                    <div class="email">
+                        tianpei[dot]gu[at]bytedance[dot]com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Research Section -->
+    <div class="container blog main" id="research-section">
+        <div class="section-title">
+            <h2>Research</h2>
+        </div>
+        <div class="research-projects">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="video-thumbnail" onclick="openVideoModal('assets/teaser/xstreamer.mp4')">
+                            <img src="assets/teaser/xstreamer_thumb.jpg" alt="X-Streamer" class="project-img video-16-9">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">X-Streamer: Unified Human World Modeling with Audiovisual Interaction                      </h3>
+                        <p class="project-authors">
+                            You Xie, <strong>Tianpei Gu</strong>, Zenan Li, Chenxu Zhang, Guoxian Song, Xiaochen Zhao, Chao Liang, Jianwen Jiang, Hongyi Xu, Linjie Luo
+                        <p class="project-venue">
+                            <strong>Arxiv</strong>, 2025
+                        </p>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/abs/2509.21574" class="project-link">Paper</a>
+                            <a href="https://byteaigc.github.io/X-Streamer/" class="project-link">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/lynx.webp" alt="Lynx" class="project-img video-square">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lynx: Towards High-Fidelity Personalized Video Generation                        </h3>
+                        <p class="project-authors">
+                            Shen Sang*, Tiancheng Zhi*, <strong>Tianpei Gu</strong>, Jing Liu, Linjie Luo
+                        <p class="project-venue">
+                            <strong>Arxiv</strong>, 2025
+                        </p>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/abs/2509.15496" class="project-link">Paper</a>
+                            <a href="https://byteaigc.github.io/Lynx/" class="project-link">Website</a>
+                            <a href="https://github.com/bytedance/Lynx" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <video src="assets/teaser/xunimotion.webm" alt="Xunimotion" class="project-img video-16-9" autoplay muted loop>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">X-UniMotion: Animating Human Images with Expressive, Unified and Identity-Agnostic Motion Latents                        </h3>
+                        <p class="project-authors">
+                            Guoxian Song, Hongyi Xu, Xiaochen Zhao, You Xie, <strong>Tianpei Gu</strong>, Zenan Li, Chenxu Zhang, Linjie Luo
+                        </p>
+                        <p class="project-venue">
+                            <strong>SIGGRAPH Asia</strong>, 2025
+                        </p>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/abs/2508.09383" class="project-link">Paper</a>
+                            <a href="https://byteaigc.github.io/X-Unimotion/" class="project-link">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <video src="assets/teaser/xactor.webm" alt="Xactor" class="project-img video-square" autoplay muted loop>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">X-Actor: Emotional and Expressive Long-Range Portrait Acting from Audio</h3>
+                        <p class="project-authors">
+                            Chenxu Zhang, Zenan Li, Hongyi Xu, You Xie, Xiaochen Zhao, <strong>Tianpei Gu</strong>, Guoxian Song, Xin Chen, Chao Liang, Jianwen Jiang, Linjie Luo  
+                        </p>
+                        <p class="project-venue">
+                            <strong>SIGGRAPH Asia</strong>, 2025
+                        </p>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/abs/2508.02944v1" class="project-link">Paper</a>
+                            <a href="https://byteaigc.github.io/X-Actor/" class="project-link">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/duolando.gif" alt="Duolando Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Duolando: Follower GPT with Off-Policy Reinforcement Learning for Dance Accompaniment</h3>
+                        <p class="project-authors">
+                            Li Siyao, <strong>Tianpei Gu</strong>, Zhitao Yang, Zhengyu Lin, Ziwei Liu, Henghui Ding, Lei Yang, and Chen Change Loy
+                        </p>
+                        <p class="project-venue">
+                            <strong>ICLR</strong>, 2024
+                        </p>
+                        <div class="project-links">
+                            <a href="https://openreview.net/pdf?id=GW4j4n2cjH" class="project-link">Paper</a>
+                            <a href="https://lisiyao21.github.io/projects/Duolando/" class="project-link">Website</a>
+                            <a href="https://github.com/lisiyao21/Duolando" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/Bailando_ori.gif" alt="Bailando++ Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bailando++: 3D Dance GPT With Choreographic Memory</h3>
+                        <p class="project-authors">
+                            Li Siyao, Weijiang Yu, <strong>Tianpei Gu</strong>, Chunze Lin, Quan Wang, Chen Qian, Chen Change Loy, and Ziwei Liu
+                        </p>
+                        <p class="project-venue">
+                            <strong>TPAMI</strong>, 2023
+                        </p>
+                        <div class="project-links">
+                            <a href="https://lisiyao21.github.io/accessories/tpami_bailandopp.pdf" class="project-link">Paper</a>
+                            <a href="https://github.com/lisiyao21/Bailando" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/Inbet.gif" alt="Line Inbetweening Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Deep Geometrized Cartoon Line Inbetweening</h3>
+                        <p class="project-authors">
+                            Li Siyao, <strong>Tianpei Gu</strong>, Weiye Xiao, Henghui Ding, Ziwei Liu, and Chen Change Loy
+                        </p>
+                        <p class="project-venue">
+                            <strong>ICCV</strong>, 2023
+                        </p>
+                        <div class="project-links">
+                            <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Siyao_Deep_Geometrized_Cartoon_Line_Inbetweening_ICCV_2023_paper.pdf" class="project-link">Paper</a>
+                            <a href="https://github.com/lisiyao21/AnimeInbet" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/MID.gif" alt="MID Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion</h3>
+                        <p class="project-authors">
+                            <strong>Tianpei Gu*</strong>, Guangyi Chen*, Junlong Li, Chunze Lin, Yongming Rao, Jie Zhou, and Jiwen Lu
+                        </p>
+                        <p class="project-venue">
+                            <strong>CVPR</strong>, 2022
+                        </p>
+                        <div class="project-links">
+                            <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Stochastic_Trajectory_Prediction_via_Motion_Indeterminacy_Diffusion_CVPR_2022_paper.pdf" class="project-link">Paper</a>
+                            <a href="https://github.com/Gutianpei/MID" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/Bailando_ori.gif" alt="Bailando Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bailando: 3D Dance Generation by Actor-Critic GPT with Choreographic Memory</h3>
+                        <p class="project-authors">
+                            Li Siyao, Weijiang Yu, <strong>Tianpei Gu</strong>, Chunze Lin, Quan Wang, Chen Qian, Chen Change Loy, and Ziwei Liu
+                        </p>
+                        <p class="project-venue">
+                            <strong>CVPR Oral</strong>, 2022
+                        </p>
+                        <div class="project-links">
+                            <a href="http://openaccess.thecvf.com/content/CVPR2022/papers/Siyao_Bailando_3D_Dance_Generation_by_Actor-Critic_GPT_With_Choreographic_Memory_CVPR_2022_paper.pdf" class="project-link">PDF</a>
+                            <a href="https://github.com/lisiyao21/Bailando" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/teaser/APNet.png" alt="APNet Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Person Re-Identification via Attention Pyramid</h3>
+                        <p class="project-authors">
+                            Guangyi Chen, <strong>Tianpei Gu</strong>, Jiwen Lu, Jin-An Bao, and Jie Zhou
+                        </p>
+                        <p class="project-venue">
+                            <strong>T-IP</strong>, 2021
+                        </p>
+                        <div class="project-links">
+                            <a href="https://arxiv.org/abs/2108.05340" class="project-link">Paper</a>
+                            <a href="https://github.com/Gutianpei/APNet" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="container blog main">
+        <div class="section-title">
+            <h2>Work Experience</h2>
+        </div>
+        <div class="work-grid">
+            <div class="work-card">
+                <div class="work-logo">
+                    <img src="assets/img/bytedance_logo.png" alt="ByteDance">
+                </div>
+                <div class="work-content">
+                    <h3 class="work-company">ByteDance US</h3>
+                    <p class="work-title">Research Scientist</p>
+                    <p class="work-description">Human-centric video generation, large-scaledata pipeline, and real-time interactive generation.</p>
+                    <p class="work-details">San Jose, CA | Nov 2024 - Present</p>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-logo">
+                    <img src="assets/img/krea_logo.png" alt="Krea">
+                </div>
+                <div class="work-content">
+                    <h3 class="work-company">Krea</h3>
+                    <p class="work-title">Machine Learning Engineer</p>
+                    <p class="work-description">Built data pipeline, trained video models.</p>
+                    <p class="work-details">San Francisco | Apr 2024 - Nov 2024</p>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-logo">
+                    <img src="assets/img/lexica_logo.png" alt="Lexica">
+                </div>
+                <div class="work-content">
+                    <h3 class="work-company">Lexica</h3>
+                    <p class="work-title">Research Engineer</p>
+                    <p class="work-description">Built data pipeline and trained foundation image/video models from scratch.</p>
+                    <p class="work-details">San Francisco | Jun 2023 - Apr 2024</p>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-logo">
+                    <img src="assets/img/sensetime_logo.png" alt="SenseTime">
+                </div>
+                <div class="work-content">
+                    <h3 class="work-company">SenseTime Research</h3>
+                    <p class="work-title">Research Intern</p>
+                    <p class="work-description">Research on GANs and latent space.</p>
+                    <p class="work-details">Beijing | May 2021 - Nov 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="container blog main">
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-logo">
+                    <img src="assets/img/ucla_logo.jpeg" alt="UCLA">
+                </div>
+                <div class="education-content">
+                    <h3 class="education-school">University of California, Los Angeles</h3>
+                    <p class="education-degree">Master Degree, Computer Science</p>
+                    <p class="education-details">2021 - 2022</p>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-logo">
+                    <img src="assets/img/umd_logo.png" alt="UMD">
+                </div>
+                <div class="education-content">
+                    <h3 class="education-school">University of Maryland</h3>
+                    <p class="education-degree">Bachelor Degree, Computer Science and Mathematics</p>
+                    <p class="education-details">2017 - 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container blog main" id="about-section">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-intro">
+                <p>01&nbsp;/&nbsp;Background</p>
+            </div>
+            <div class="about-content">
+                <p> Hey there, thanks for visiting my website. I am Tianpei Gu, currently a Research Scientist at ByteDance, based in San Jose, California. 
+                   I like writing code and building things, and believe everyone should be full-stack in developing AI. 
+                   Previously, I spent a couple years at GenAI startups in SF training foundation image/video models and shipping products.
+            </div>
+
+            <div class="about-intro">
+                <p>02&nbsp;/&nbsp;Research</p>
+            </div>
+            <div class="about-content">
+                <p>
+                    My current research focuses on <b>human-centric video generation</b> and <b>real-time interactive systems</b>, or world models. 
+                    I believe image and video generation models are far more than just a toy where you enter a prompt and get an image — they will have a great impact on our daily lives, just like LLMs.
+                    These models should have intelligence, not just act like render engines.
+                    For all AI products, I have my own “mom benchmark”: how can this product be used by ordinary people like my mom?
+                    To make video models more accessible, they have to be real-time and interactive. To make them viral, they have to generate content that’s not only visually appealing but also emotionally engaging.
+                    With that goal in mind, I’m mainly working on the following areas.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <b>Data Pipeline</b>: 
+                             The development of efficient and scalable data pipeline is still very under-explored, and the credits for data people are generally insifficient. 
+                             I have developed data pipelines (image and video) at multiple companies that scale to thousands of GPUs and process trillions of data, 
+                             serving large number of researchers and powering critical projects.
+                        </li>
+                        <li>
+                            <b>Real-time Interactive Human Models</b>: 
+                            The final form of real-time human models consists of the following components:
+                            <ul>
+                                <li>Long-context memory and consistency</li>
+                                <li>Intelligent modality interaction and alignment</li>
+                                <li>Unified understanding and generation</li>
+                                <li>Video model acceleration</li>
+                            </ul>
+                            All of the above are very challenging and require systematic efforts, but I believe we will eventually get there. 
+                            In [<a href="https://byteaigc.github.io/X-Streamer/" target="_blank" rel="noopener">X-Streamer</a>], we introduced the first human world model that can talk to users in real-time infinitely, with intelligence and memory.
+                        </li>
+                        <li>
+                            <b>Motion and Expression Modeling</b>: 
+                            I study how to capture and model complex human motions, facial expressions, and emotional states in video content. 
+                            This includes precise body motion modeling 
+                            [<a href="https://byteaigc.github.io/X-Unimotion/" target="_blank" rel="noopener">X-UniMotion</a>], 
+                            human id perservation 
+                            [<a href="https://byteaigc.github.io/Lynx/" target="_blank" rel="noopener">Lynx</a>], 
+                            and facial expression modeling while syncing with audio 
+                            [<a href="https://byteaigc.github.io/X-Actor/" target="_blank" rel="noopener">X-Actor</a>].
+                        </li>
+                        
+                    </ul>
+                </p>
+            </div>
+            
+            <div class="about-intro">
+                <p>03&nbsp;/&nbsp;Hobbies</p>
+            </div>
+            <div class="about-content">
+                <p>
+                    Apart from research, I enjoy exploring new technologies and creative applications of AI.
+                    I have a cute cat named "贝壳" (Bayker in English) and I love to play with him. 
+                    The below is a gallery of Bayker. You are welcome to see more on <a href="https://www.xiaohongshu.com/user/profile/5c78ef730000000011034b77" target="_blank" rel="noopener">Xiaohongshu</a>.
+                </p>
+                
+                <!-- Inline Bayker Gallery -->
+                <div class="inline-gallery">
+                    <img src="assets/img/bayker/359beb9d1054de0cde04a73e0dccf601.JPG" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/391e5fa4ea0f68fdd308d70f673b0ffe.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/8847b3075960f6aca26dfdaa6a7a692c.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/9ff5b9a525245a5d6dc671e5ec1ae26c.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/ca48ab641e4dc3089e6f91f97f741619.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/d29e060efc7b23b708273d24a4227aed.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/df1750b3454d52199d057957ad1f092c.JPG" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/b4cf03417f3205e526b718053bb98dfe.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/e07a0ffb568a7f528a7009381eeba8ed.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/e7919aab39fcc699a10d2c7b48308821.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                    <img src="assets/img/bayker/fbe971428b1366b67dcb477230ceaaab.jpg" alt="Bayker the cat" class="inline-gallery-img" onclick="openImageModal(this.src, this.alt)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="container blog main" id="services-section">
+        <div class="section-title">
+            <h2>Services</h2>
+        </div>
+            <div class="services-content">
+                <h3>Reviewer for:</h3>
+                <ul class="services-list">
+                    <li><strong>CVPR:</strong> 2022, 2023, 2024, 2025, 2026</li>
+                    <li><strong>NeurIPS:</strong> 2025</li>
+                    <li><strong>ICCV:</strong> 2023, 2025</li>
+                    <li><strong>ECCV:</strong> 2022, 2024</li>
+                    <li><strong>ACCV:</strong> 2024</li>
+                    <li><strong>AAAI:</strong> 2025</li>
+                    <li><strong>TIP:</strong> 2023</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>
+                This website is built on top of <a href="https://shikun.io/projects/clarity">Clarity</a>. Thanks to <a href="https://shikun.io/">Shikun Liu</a> for opensoucing this amazing site.
+            </p>
+        </div>    
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal" onclick="closeImageModal()">
+        <div class="image-modal-content" onclick="event.stopPropagation()">
+            <span class="image-modal-close" onclick="closeImageModal()">&times;</span>
+            <div class="image-gallery-container">
+                <button class="gallery-nav-btn gallery-nav-left" onclick="previousImage()" id="prevBtn">‹</button>
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <button class="gallery-nav-btn gallery-nav-right" onclick="nextImage()" id="nextBtn">›</button>
+                <div class="image-gallery-counter">
+                    <span class="gallery-counter" id="imageCounter">1 / 11</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal" onclick="closeVideoModal()">
+        <div class="video-modal-content" onclick="event.stopPropagation()">
+            <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+            <video id="modalVideo" controls autoplay>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // News toggle functionality
+            const newsToggle = document.getElementById('news-toggle');
+            if (newsToggle) {
+                newsToggle.addEventListener('click', function() {
+                    const olderNews = document.getElementById('older-news');
+                    const toggleText = document.getElementById('toggle-text');
+                    
+                    if (olderNews.style.display === 'none') {
+                        olderNews.style.display = 'block';
+                        toggleText.innerHTML = 'Hide ▲';
+                    } else {
+                        olderNews.style.display = 'none';
+                        toggleText.innerHTML = 'Show More ▼';
+                    }
+                });
+            }
+        });
+
+        // Video modal functionality
+        function openVideoModal(videoSrc) {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            video.src = videoSrc;
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            modal.style.display = 'none';
+            video.pause();
+            video.src = '';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeVideoModal();
+            }
+        });
+
+        // Image gallery data - Global scope
+        const imageGallery = [
+            'assets/img/bayker/359beb9d1054de0cde04a73e0dccf601.JPG',
+            'assets/img/bayker/391e5fa4ea0f68fdd308d70f673b0ffe.jpg',
+            'assets/img/bayker/8847b3075960f6aca26dfdaa6a7a692c.jpg',
+            'assets/img/bayker/9ff5b9a525245a5d6dc671e5ec1ae26c.jpg',
+            'assets/img/bayker/ca48ab641e4dc3089e6f91f97f741619.jpg',
+            'assets/img/bayker/d29e060efc7b23b708273d24a4227aed.jpg',
+            'assets/img/bayker/df1750b3454d52199d057957ad1f092c.JPG',
+            'assets/img/bayker/b4cf03417f3205e526b718053bb98dfe.jpg',
+            'assets/img/bayker/e07a0ffb568a7f528a7009381eeba8ed.jpg',
+            'assets/img/bayker/e7919aab39fcc699a10d2c7b48308821.jpg',
+            'assets/img/bayker/fbe971428b1366b67dcb477230ceaaab.jpg'
+        ];
+        
+        let currentImageIndex = 0;
+
+        // Image modal functions - Global scope
+        function openImageModal(src, alt) {
+            console.log('openImageModal called with:', src, alt);
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            
+            if (!modal) {
+                console.error('Modal element not found');
+                return;
+            }
+            
+            if (!modalImg) {
+                console.error('Modal image element not found');
+                return;
+            }
+            
+            // Find the index of the clicked image
+            currentImageIndex = imageGallery.indexOf(src);
+            if (currentImageIndex === -1) currentImageIndex = 0;
+            
+            console.log('Setting modal display to block');
+            modal.style.display = 'block';
+            modalImg.src = src;
+            modalImg.alt = alt;
+            updateImageCounter();
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeImageModal() {
+            document.getElementById('imageModal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % imageGallery.length;
+            const modalImg = document.getElementById('modalImage');
+            modalImg.src = imageGallery[currentImageIndex];
+            modalImg.alt = 'Bayker the cat';
+            updateImageCounter();
+        }
+
+        function previousImage() {
+            currentImageIndex = (currentImageIndex - 1 + imageGallery.length) % imageGallery.length;
+            const modalImg = document.getElementById('modalImage');
+            modalImg.src = imageGallery[currentImageIndex];
+            modalImg.alt = 'Bayker the cat';
+            updateImageCounter();
+        }
+
+        function updateImageCounter() {
+            const counter = document.getElementById('imageCounter');
+            if (counter) {
+                counter.textContent = `${currentImageIndex + 1} / ${imageGallery.length}`;
+            }
+        }
+
+        // Close image modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeImageModal();
+            } else if (event.key === 'ArrowLeft') {
+                previousImage();
+            } else if (event.key === 'ArrowRight') {
+                nextImage();
+            }
+        });
+    </script>
+</body>
+</html>
