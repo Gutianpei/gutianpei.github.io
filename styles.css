@@ -55,7 +55,7 @@
   --gradient-secondary: linear-gradient(135deg, var(--slate-50), var(--slate-100));
   --gradient-accent: linear-gradient(135deg, var(--accent-emerald), var(--accent-orange));
   --gradient-subtle: linear-gradient(135deg, rgba(255, 193, 7, 0.08), rgba(255, 87, 34, 0.08));
-  --gradient-warm: radial-gradient(ellipse at top left, rgba(188, 80, 80, 0.3), transparent 50%), radial-gradient(ellipse at bottom right, rgba(176, 126, 210, 0.3), transparent 50%);
+  --gradient-warm: radial-gradient(ellipse at top left, rgba(188, 80, 80, 0.371), transparent 30%), radial-gradient(ellipse at bottom right, rgba(176, 126, 210, 0.3), transparent 30%);
 }
 /* Tiempos Text Font Family */
 @font-face {
