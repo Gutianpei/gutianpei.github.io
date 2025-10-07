@@ -1170,6 +1170,17 @@ h3.project-title,
   padding: 2vh 0 1vh 0 !important;
 }
 
+/* Contact Section Title with Dash Line */
+#contact-section .section-title h2 {
+  border-bottom: 1px solid #ddd !important;
+  padding: 2vh 0 1vh 0 !important;
+}
+
+/* Contact Section Content Spacing */
+.contact-content {
+  margin-top: 2vh;
+}
+
 /* About Me Section Styling */
 .about-container {
   display: grid;
