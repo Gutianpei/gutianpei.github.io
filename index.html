@@ -25,6 +25,25 @@
 </head>
 
 <body>
+    <!-- Floating Navigation Menu -->
+    <nav class="floating-nav" id="floating-nav">
+        <div class="nav-trigger">
+            <div class="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-menu">
+            <a href="#research-section" class="nav-link">Research</a>
+            <a href="#work-section" class="nav-link">Experience</a>
+            <a href="#education-section" class="nav-link">Education</a>
+            <a href="#about-section" class="nav-link">About</a>
+            <a href="#services-section" class="nav-link">Services</a>
+            <a href="#contact-section" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
     <!-- Title Page -->
     <div class="container blog" id="first-content" style="background-color: #e9e9e9;">
         <div class="blog-title">
@@ -274,7 +293,7 @@
     </div>
 
     <!-- Work Experience Section -->
-    <div class="container blog main">
+    <div class="container blog main" id="work-section">
         <div class="section-title">
             <h2>Work Experience</h2>
         </div>
@@ -330,7 +349,7 @@
     </div>
 
     <!-- Education Section -->
-    <div class="container blog main">
+    <div class="container blog main" id="education-section">
         <div class="section-title">
             <h2>Education</h2>
         </div>
@@ -643,6 +662,40 @@
             } else if (event.key === 'ArrowRight') {
                 nextImage();
             }
+        });
+
+        // Floating Navigation Smooth Scrolling
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                if (targetSection) {
+                    const offsetTop = targetSection.offsetTop - 80; // Account for any fixed headers
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Auto-hide navigation on scroll (optional enhancement)
+        let scrollTimeout;
+        const floatingNav = document.getElementById('floating-nav');
+        
+        window.addEventListener('scroll', function() {
+            // Hide nav while scrolling
+            floatingNav.style.opacity = '0.7';
+            floatingNav.style.transform = 'translateY(-50%) scale(0.95)';
+            
+            // Show nav after scrolling stops
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(function() {
+                floatingNav.style.opacity = '1';
+                floatingNav.style.transform = 'translateY(-50%) scale(1)';
+            }, 150);
         });
     </script>
 </body>
